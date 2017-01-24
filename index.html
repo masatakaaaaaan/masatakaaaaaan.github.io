@@ -11,6 +11,13 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8f;
+        text-align: center;    
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -30,8 +37,35 @@
     </header>
     <div class="jumbotron">
       <h1>YAKINIKUとは？</h1>
-      <p>WEBサイトにおける主要コンテンツを紹介するのに適したスタイル。</p>
-      <p><a class="btn btn-primary btn-lg" href="./index.html" role="button">もっと詳しく</a></p>
+      <p>肉の焼き加減を手元のスマートフォンでウォッチできるアプリケーションである</p>
+      <p><a class="btn btn-primary btn-lg" href="./index.html" role="button">Detail</a></p>
     </div>
+    <!-- 4:3 aspect ratio -->
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+    </div>
+    <div class="media">
+      <div class="media-left">
+        <a href="#">
+          <img class="media-object" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">28歳　会社員</h4>
+        全米アプリコンテスト優勝はだてじゃない
+        <div class="media">
+          <a class="media-left" href="#">
+            <img src="../img/sample-64x64.png">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">開発者</h4>
+            ありがとうございます！
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="copyright">@ 2017 YAKINIKUYA Tokyo region</div>
+    </footer>
   </body>
 </html>
